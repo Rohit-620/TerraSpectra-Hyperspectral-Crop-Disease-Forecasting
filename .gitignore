@@ -1,0 +1,50 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE and Editor
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+.env.*
+
+# Hyperspectral datasets - large files
+data/raw/
+data/external/
+*.tif
+*.tiff
+*.hdr
+*.dat
+*.bil
+*.bip
+
+# Model files
+*.keras
+*.h5
+*.pth
+*.pt
+*.pkl
+*.joblib
+
+# Experiment outputs
+logs/
+outputs/
+checkpoints/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
