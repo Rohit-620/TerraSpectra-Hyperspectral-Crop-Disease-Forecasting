@@ -1,0 +1,18 @@
+class_id,class_name,pixel_count,pct_total_image,pct_labeled_samples
+0,Background / Unlabeled,56975,51.28,0.0
+1,Brocoli_green_weeds_1,2009,1.81,3.71
+2,Brocoli_green_weeds_2,3726,3.35,6.88
+3,Fallow,1976,1.78,3.65
+4,Fallow_rough_plow,1394,1.25,2.58
+5,Fallow_smooth,2678,2.41,4.95
+6,Stubble,3959,3.56,7.31
+7,Celery,3579,3.22,6.61
+8,Grapes_untrained,11271,10.14,20.82
+9,Soil_vinyard_develop,6203,5.58,11.46
+10,Corn_senesced_green_weeds,3278,2.95,6.06
+11,Lettuce_romaine_4wk,1068,0.96,1.97
+12,Lettuce_romaine_5wk,1927,1.73,3.56
+13,Lettuce_romaine_6wk,916,0.82,1.69
+14,Lettuce_romaine_7wk,1070,0.96,1.98
+15,Vinyard_untrained,7268,6.54,13.43
+16,Vinyard_vertical_trellis,1807,1.63,3.34

@@ -1,0 +1,18 @@
+class_id,class_name,pixel_count,pct_total_image,pct_labeled_samples
+0,Background / Unlabeled,10776,51.25,0.0
+1,Alfalfa,46,0.22,0.45
+2,Corn-notill,1428,6.79,13.93
+3,Corn-mintill,830,3.95,8.1
+4,Corn,237,1.13,2.31
+5,Grass-pasture,483,2.3,4.71
+6,Grass-trees,730,3.47,7.12
+7,Grass-pasture-mowed,28,0.13,0.27
+8,Hay-windrowed,478,2.27,4.66
+9,Oats,20,0.1,0.2
+10,Soybean-notill,972,4.62,9.48
+11,Soybean-mintill,2455,11.68,23.95
+12,Soybean-clean,593,2.82,5.79
+13,Wheat,205,0.98,2.0
+14,Woods,1265,6.02,12.34
+15,Buildings-Grass-Trees-Drives,386,1.84,3.77
+16,Stone-Steel-Towers,93,0.44,0.91

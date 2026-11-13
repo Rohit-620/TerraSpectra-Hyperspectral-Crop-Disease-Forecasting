@@ -1,0 +1,59 @@
+{
+    "dataset_name": "AVIRIS Salinas Valley Hyperspectral Scene",
+    "sensor": "Airborne Visible / Infrared Imaging Spectrometer (AVIRIS)",
+    "platform": "NASA ER-2 Aircraft (Airborne)",
+    "acquisition_date": "October 1998",
+    "location": "Salinas Valley, California, USA",
+    "spatial_coverage": "Intensive agricultural valley (vegetables, vineyards, fallow)",
+    "spatial_dimensions": {
+        "lines_height": 512,
+        "samples_width": 217,
+        "total_pixels": 111104
+    },
+    "spatial_resolution_meters": 3.7,
+    "spectral_channels": {
+        "corrected_clean_bands": 204,
+        "removed_noise_bands_count": 20,
+        "removed_band_indices_1based": [
+            108,
+            109,
+            110,
+            111,
+            112,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            224
+        ]
+    },
+    "spectral_range_nm": [
+        400.0,
+        2500.0
+    ],
+    "spectral_bandwidth_nm": "approx. 10 nm nominal",
+    "data_format": "MATLAB .mat (v7)",
+    "data_type": "int16",
+    "radiometric_range": {
+        "min_dn": -11.0,
+        "max_dn": 9207.0,
+        "mean_dn": 1196.400387051242,
+        "std_dn": 1098.4004812814464
+    },
+    "ground_truth": {
+        "total_classes": 16,
+        "labeled_pixels": 54129,
+        "background_pixels": 56975,
+        "labeled_percentage": 48.72
+    }
+}

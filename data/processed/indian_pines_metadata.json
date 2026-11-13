@@ -1,0 +1,60 @@
+{
+    "dataset_name": "AVIRIS Indian Pines Hyperspectral Scene",
+    "sensor": "Airborne Visible / Infrared Imaging Spectrometer (AVIRIS)",
+    "platform": "NASA ER-2 Aircraft (Airborne)",
+    "acquisition_date": "June 12, 1992",
+    "location": "Northwest Indiana, USA (Pine Township)",
+    "spatial_coverage": "Agricultural fields and forested areas",
+    "spatial_dimensions": {
+        "lines_height": 145,
+        "samples_width": 145,
+        "total_pixels": 21025
+    },
+    "spatial_resolution_meters": 20.0,
+    "spectral_channels": {
+        "raw_bands": 220,
+        "corrected_clean_bands": 200,
+        "removed_noise_bands_count": 20,
+        "removed_band_indices_1based": [
+            104,
+            105,
+            106,
+            107,
+            108,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            220
+        ]
+    },
+    "spectral_range_nm": [
+        400.0,
+        2450.0
+    ],
+    "spectral_bandwidth_nm": "approx. 10 nm nominal",
+    "data_format": "MATLAB .mat (v7)",
+    "data_type": "uint16",
+    "radiometric_range": {
+        "min_dn": 955.0,
+        "max_dn": 9604.0,
+        "mean_dn": 2652.3891098692034,
+        "std_dn": 1592.3401203795756
+    },
+    "ground_truth": {
+        "total_classes": 16,
+        "labeled_pixels": 10249,
+        "background_pixels": 10776,
+        "labeled_percentage": 48.75
+    }
+}
