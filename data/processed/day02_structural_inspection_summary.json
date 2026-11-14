@@ -1,0 +1,174 @@
+{
+    "milestone": "Day 2 - Structural Inspection & Spatial-Spectral Representation",
+    "timestamp": "2026-11-14 18:29:30",
+    "tensors": {
+        "indian_pines_raw": {
+            "name": "Indian Pines Raw Cube",
+            "shape": [
+                145,
+                145,
+                220
+            ],
+            "spatial_lines_H": 145,
+            "spatial_samples_W": 145,
+            "spectral_channels_B": 220,
+            "ndim": 3,
+            "data_type": "uint16",
+            "itemsize_bytes": 2,
+            "total_elements": 4625500,
+            "memory_mb": 8.82,
+            "memory_layout": "Fortran (Column-Major)",
+            "numerical_health": {
+                "nan_count": 0,
+                "inf_count": 0,
+                "has_nans": false,
+                "has_infs": false,
+                "negative_values_count": 0,
+                "zero_values_count": 0
+            },
+            "radiometric_statistics": {
+                "min_val": 955.0,
+                "max_val": 9604.0,
+                "mean_val": 2503.438,
+                "std_val": 1589.629,
+                "percentile_1": 1000.0,
+                "median_p50": 1825.0,
+                "percentile_99": 6631.0
+            }
+        },
+        "indian_pines_calibrated": {
+            "name": "Indian Pines Calibrated Cube",
+            "shape": [
+                145,
+                145,
+                200
+            ],
+            "spatial_lines_H": 145,
+            "spatial_samples_W": 145,
+            "spectral_channels_B": 200,
+            "ndim": 3,
+            "data_type": "uint16",
+            "itemsize_bytes": 2,
+            "total_elements": 4205000,
+            "memory_mb": 8.02,
+            "memory_layout": "Fortran (Column-Major)",
+            "numerical_health": {
+                "nan_count": 0,
+                "inf_count": 0,
+                "has_nans": false,
+                "has_infs": false,
+                "negative_values_count": 0,
+                "zero_values_count": 0
+            },
+            "radiometric_statistics": {
+                "min_val": 955.0,
+                "max_val": 9604.0,
+                "mean_val": 2652.389,
+                "std_val": 1592.34,
+                "percentile_1": 1010.0,
+                "median_p50": 2168.0,
+                "percentile_99": 6695.0
+            }
+        },
+        "indian_pines_ground_truth": {
+            "name": "Indian Pines Ground Truth",
+            "shape": [
+                145,
+                145
+            ],
+            "spatial_lines_H": 145,
+            "spatial_samples_W": 145,
+            "spectral_channels_B": 1,
+            "ndim": 2,
+            "data_type": "uint8",
+            "itemsize_bytes": 1,
+            "total_elements": 21025,
+            "memory_mb": 0.02,
+            "memory_layout": "Fortran (Column-Major)",
+            "numerical_health": {
+                "nan_count": 0,
+                "inf_count": 0,
+                "has_nans": false,
+                "has_infs": false,
+                "negative_values_count": 0,
+                "zero_values_count": 10776
+            },
+            "radiometric_statistics": {
+                "min_val": 0.0,
+                "max_val": 16.0,
+                "mean_val": 4.225,
+                "std_val": 5.282,
+                "percentile_1": 0.0,
+                "median_p50": 0.0,
+                "percentile_99": 15.0
+            }
+        },
+        "salinas_calibrated": {
+            "name": "Salinas Calibrated Cube",
+            "shape": [
+                512,
+                217,
+                204
+            ],
+            "spatial_lines_H": 512,
+            "spatial_samples_W": 217,
+            "spectral_channels_B": 204,
+            "ndim": 3,
+            "data_type": "int16",
+            "itemsize_bytes": 2,
+            "total_elements": 22665216,
+            "memory_mb": 43.23,
+            "memory_layout": "Fortran (Column-Major)",
+            "numerical_health": {
+                "nan_count": 0,
+                "inf_count": 0,
+                "has_nans": false,
+                "has_infs": false,
+                "negative_values_count": 5304,
+                "zero_values_count": 8448
+            },
+            "radiometric_statistics": {
+                "min_val": -11.0,
+                "max_val": 9207.0,
+                "mean_val": 1196.4,
+                "std_val": 1098.4,
+                "percentile_1": 14.0,
+                "median_p50": 869.0,
+                "percentile_99": 4842.0
+            }
+        },
+        "salinas_ground_truth": {
+            "name": "Salinas Ground Truth",
+            "shape": [
+                512,
+                217
+            ],
+            "spatial_lines_H": 512,
+            "spatial_samples_W": 217,
+            "spectral_channels_B": 1,
+            "ndim": 2,
+            "data_type": "uint8",
+            "itemsize_bytes": 1,
+            "total_elements": 111104,
+            "memory_mb": 0.11,
+            "memory_layout": "Fortran (Column-Major)",
+            "numerical_health": {
+                "nan_count": 0,
+                "inf_count": 0,
+                "has_nans": false,
+                "has_infs": false,
+                "negative_values_count": 0,
+                "zero_values_count": 56975
+            },
+            "radiometric_statistics": {
+                "min_val": 0.0,
+                "max_val": 16.0,
+                "mean_val": 4.155,
+                "std_val": 5.148,
+                "percentile_1": 0.0,
+                "median_p50": 0.0,
+                "percentile_99": 16.0
+            }
+        }
+    }
+}

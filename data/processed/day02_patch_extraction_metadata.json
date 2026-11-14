@@ -1,0 +1,97 @@
+{
+    "dataset": "Indian Pines Calibrated",
+    "total_labeled_samples": 10249,
+    "default_patch_size": "9x9",
+    "half_margin_m": 4,
+    "padding_mode": "reflect",
+    "padded_cube_shape": [
+        153,
+        153,
+        200
+    ],
+    "sample_batch_verification": {
+        "batch_shape": [
+            100,
+            9,
+            9,
+            200
+        ],
+        "value_range": [
+            0.09920000284910202,
+            0.8485999703407288
+        ],
+        "is_clean_numerical": true
+    },
+    "memory_footprint_benchmarks": [
+        {
+            "patch_size": "5x5",
+            "spatial_window_k": 5,
+            "half_margin_m": 2,
+            "elements_per_patch": 5000,
+            "total_patch_elements": 51245000,
+            "memory_float32_mb": 195.48,
+            "memory_float16_mb": 97.74,
+            "memory_uint8_mb": 48.87
+        },
+        {
+            "patch_size": "7x7",
+            "spatial_window_k": 7,
+            "half_margin_m": 3,
+            "elements_per_patch": 9800,
+            "total_patch_elements": 100440200,
+            "memory_float32_mb": 383.15,
+            "memory_float16_mb": 191.57,
+            "memory_uint8_mb": 95.79
+        },
+        {
+            "patch_size": "9x9",
+            "spatial_window_k": 9,
+            "half_margin_m": 4,
+            "elements_per_patch": 16200,
+            "total_patch_elements": 166033800,
+            "memory_float32_mb": 633.37,
+            "memory_float16_mb": 316.68,
+            "memory_uint8_mb": 158.34
+        },
+        {
+            "patch_size": "11x11",
+            "spatial_window_k": 11,
+            "half_margin_m": 5,
+            "elements_per_patch": 24200,
+            "total_patch_elements": 248025800,
+            "memory_float32_mb": 946.14,
+            "memory_float16_mb": 473.07,
+            "memory_uint8_mb": 236.54
+        },
+        {
+            "patch_size": "13x13",
+            "spatial_window_k": 13,
+            "half_margin_m": 6,
+            "elements_per_patch": 33800,
+            "total_patch_elements": 346416200,
+            "memory_float32_mb": 1321.47,
+            "memory_float16_mb": 660.74,
+            "memory_uint8_mb": 330.37
+        },
+        {
+            "patch_size": "15x15",
+            "spatial_window_k": 15,
+            "half_margin_m": 7,
+            "elements_per_patch": 45000,
+            "total_patch_elements": 461205000,
+            "memory_float32_mb": 1759.36,
+            "memory_float16_mb": 879.68,
+            "memory_uint8_mb": 439.84
+        },
+        {
+            "patch_size": "17x17",
+            "spatial_window_k": 17,
+            "half_margin_m": 8,
+            "elements_per_patch": 57800,
+            "total_patch_elements": 592392200,
+            "memory_float32_mb": 2259.8,
+            "memory_float16_mb": 1129.9,
+            "memory_uint8_mb": 564.95
+        }
+    ]
+}
