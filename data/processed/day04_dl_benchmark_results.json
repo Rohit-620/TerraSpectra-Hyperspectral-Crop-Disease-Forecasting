@@ -1,0 +1,808 @@
+{
+    "random_split": {
+        "Spectral 1D-CNN": {
+            "model_name": "Spectral 1D-CNN",
+            "regime": "random",
+            "overall_accuracy_oa": 0.58,
+            "average_accuracy_aa": 0.4074,
+            "cohens_kappa": 0.4955,
+            "macro_f1": 0.3859,
+            "weighted_f1": 0.4882,
+            "fit_time_seconds": 19.59,
+            "inference_ms_per_sample": 0.1528,
+            "parameter_count": 54288,
+            "per_class_metrics": {
+                "Alfalfa": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Corn-notill": {
+                    "precision": 0.4881,
+                    "recall": 0.5035,
+                    "f1_score": 0.4957
+                },
+                "Corn-mintill": {
+                    "precision": 0.6667,
+                    "recall": 0.012,
+                    "f1_score": 0.0237
+                },
+                "Corn": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-pasture": {
+                    "precision": 0.7966,
+                    "recall": 0.4845,
+                    "f1_score": 0.6026
+                },
+                "Grass-trees": {
+                    "precision": 0.75,
+                    "recall": 0.9452,
+                    "f1_score": 0.8364
+                },
+                "Grass-pasture-mowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Hay-windrowed": {
+                    "precision": 0.8067,
+                    "recall": 1.0,
+                    "f1_score": 0.893
+                },
+                "Oats": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-notill": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-mintill": {
+                    "precision": 0.4533,
+                    "recall": 0.9287,
+                    "f1_score": 0.6092
+                },
+                "Soybean-clean": {
+                    "precision": 0.5,
+                    "recall": 0.0084,
+                    "f1_score": 0.0165
+                },
+                "Wheat": {
+                    "precision": 0.7551,
+                    "recall": 0.9024,
+                    "f1_score": 0.8222
+                },
+                "Woods": {
+                    "precision": 0.8013,
+                    "recall": 0.9723,
+                    "f1_score": 0.8786
+                },
+                "Buildings-Grass-Trees-Drives": {
+                    "precision": 0.7692,
+                    "recall": 0.1299,
+                    "f1_score": 0.2222
+                },
+                "Stone-Steel-Towers": {
+                    "precision": 1.0,
+                    "recall": 0.6316,
+                    "f1_score": 0.7742
+                }
+            }
+        },
+        "Spatial 2D-CNN": {
+            "model_name": "Spatial 2D-CNN",
+            "regime": "random",
+            "overall_accuracy_oa": 0.9961,
+            "average_accuracy_aa": 0.9514,
+            "cohens_kappa": 0.9955,
+            "macro_f1": 0.9599,
+            "weighted_f1": 0.9957,
+            "fit_time_seconds": 57.49,
+            "inference_ms_per_sample": 0.3154,
+            "parameter_count": 258000,
+            "per_class_metrics": {
+                "Alfalfa": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Corn-notill": {
+                    "precision": 0.9965,
+                    "recall": 1.0,
+                    "f1_score": 0.9983
+                },
+                "Corn-mintill": {
+                    "precision": 0.994,
+                    "recall": 1.0,
+                    "f1_score": 0.997
+                },
+                "Corn": {
+                    "precision": 0.9792,
+                    "recall": 1.0,
+                    "f1_score": 0.9895
+                },
+                "Grass-pasture": {
+                    "precision": 0.9898,
+                    "recall": 1.0,
+                    "f1_score": 0.9949
+                },
+                "Grass-trees": {
+                    "precision": 1.0,
+                    "recall": 0.9795,
+                    "f1_score": 0.9896
+                },
+                "Grass-pasture-mowed": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Hay-windrowed": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Oats": {
+                    "precision": 1.0,
+                    "recall": 0.25,
+                    "f1_score": 0.4
+                },
+                "Soybean-notill": {
+                    "precision": 1.0,
+                    "recall": 0.9948,
+                    "f1_score": 0.9974
+                },
+                "Soybean-mintill": {
+                    "precision": 0.9939,
+                    "recall": 0.998,
+                    "f1_score": 0.9959
+                },
+                "Soybean-clean": {
+                    "precision": 0.9917,
+                    "recall": 1.0,
+                    "f1_score": 0.9958
+                },
+                "Wheat": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Woods": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Buildings-Grass-Trees-Drives": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Stone-Steel-Towers": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                }
+            }
+        },
+        "Spatial-Spectral 3D-CNN": {
+            "model_name": "Spatial-Spectral 3D-CNN",
+            "regime": "random",
+            "overall_accuracy_oa": 0.8693,
+            "average_accuracy_aa": 0.6915,
+            "cohens_kappa": 0.8494,
+            "macro_f1": 0.704,
+            "weighted_f1": 0.8616,
+            "fit_time_seconds": 81.26,
+            "inference_ms_per_sample": 0.4321,
+            "parameter_count": 35616,
+            "per_class_metrics": {
+                "Alfalfa": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Corn-notill": {
+                    "precision": 0.8097,
+                    "recall": 0.8182,
+                    "f1_score": 0.8139
+                },
+                "Corn-mintill": {
+                    "precision": 0.8125,
+                    "recall": 0.7831,
+                    "f1_score": 0.7975
+                },
+                "Corn": {
+                    "precision": 0.9231,
+                    "recall": 0.5106,
+                    "f1_score": 0.6575
+                },
+                "Grass-pasture": {
+                    "precision": 0.9884,
+                    "recall": 0.8763,
+                    "f1_score": 0.929
+                },
+                "Grass-trees": {
+                    "precision": 0.9796,
+                    "recall": 0.9863,
+                    "f1_score": 0.9829
+                },
+                "Grass-pasture-mowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Hay-windrowed": {
+                    "precision": 0.96,
+                    "recall": 1.0,
+                    "f1_score": 0.9796
+                },
+                "Oats": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-notill": {
+                    "precision": 0.8506,
+                    "recall": 0.7629,
+                    "f1_score": 0.8043
+                },
+                "Soybean-mintill": {
+                    "precision": 0.8116,
+                    "recall": 0.9654,
+                    "f1_score": 0.8819
+                },
+                "Soybean-clean": {
+                    "precision": 0.859,
+                    "recall": 0.563,
+                    "f1_score": 0.6802
+                },
+                "Wheat": {
+                    "precision": 0.8511,
+                    "recall": 0.9756,
+                    "f1_score": 0.9091
+                },
+                "Woods": {
+                    "precision": 0.9654,
+                    "recall": 0.9921,
+                    "f1_score": 0.9786
+                },
+                "Buildings-Grass-Trees-Drives": {
+                    "precision": 0.878,
+                    "recall": 0.9351,
+                    "f1_score": 0.9057
+                },
+                "Stone-Steel-Towers": {
+                    "precision": 1.0,
+                    "recall": 0.8947,
+                    "f1_score": 0.9444
+                }
+            }
+        },
+        "HybridSN (3D-2D CNN)": {
+            "model_name": "HybridSN (3D-2D CNN)",
+            "regime": "random",
+            "overall_accuracy_oa": 1.0,
+            "average_accuracy_aa": 1.0,
+            "cohens_kappa": 1.0,
+            "macro_f1": 1.0,
+            "weighted_f1": 1.0,
+            "fit_time_seconds": 28.34,
+            "inference_ms_per_sample": 0.177,
+            "parameter_count": 362608,
+            "per_class_metrics": {
+                "Alfalfa": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Corn-notill": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Corn-mintill": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Corn": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Grass-pasture": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Grass-trees": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Grass-pasture-mowed": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Hay-windrowed": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Oats": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Soybean-notill": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Soybean-mintill": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Soybean-clean": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Wheat": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Woods": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Buildings-Grass-Trees-Drives": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                },
+                "Stone-Steel-Towers": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0
+                }
+            }
+        }
+    },
+    "parcel_split": {
+        "Spectral 1D-CNN": {
+            "model_name": "Spectral 1D-CNN",
+            "regime": "parcel",
+            "overall_accuracy_oa": 0.3025,
+            "average_accuracy_aa": 0.2809,
+            "cohens_kappa": 0.1969,
+            "macro_f1": 0.1926,
+            "weighted_f1": 0.2436,
+            "fit_time_seconds": 17.84,
+            "inference_ms_per_sample": 0.0786,
+            "parameter_count": 54288,
+            "per_class_metrics": {
+                "Alfalfa": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Corn-notill": {
+                    "precision": 0.3932,
+                    "recall": 0.442,
+                    "f1_score": 0.4162
+                },
+                "Corn-mintill": {
+                    "precision": 0.0233,
+                    "recall": 0.0046,
+                    "f1_score": 0.0077
+                },
+                "Corn": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-pasture": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-trees": {
+                    "precision": 0.3288,
+                    "recall": 0.4068,
+                    "f1_score": 0.3636
+                },
+                "Grass-pasture-mowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Hay-windrowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Oats": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-notill": {
+                    "precision": 0.45,
+                    "recall": 0.9677,
+                    "f1_score": 0.6143
+                },
+                "Soybean-mintill": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-clean": {
+                    "precision": 0.0848,
+                    "recall": 0.6333,
+                    "f1_score": 0.1496
+                },
+                "Wheat": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Woods": {
+                    "precision": 0.1906,
+                    "recall": 0.2966,
+                    "f1_score": 0.232
+                },
+                "Buildings-Grass-Trees-Drives": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Stone-Steel-Towers": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                }
+            }
+        },
+        "Spatial 2D-CNN": {
+            "model_name": "Spatial 2D-CNN",
+            "regime": "parcel",
+            "overall_accuracy_oa": 0.3659,
+            "average_accuracy_aa": 0.209,
+            "cohens_kappa": 0.2607,
+            "macro_f1": 0.1815,
+            "weighted_f1": 0.311,
+            "fit_time_seconds": 55.77,
+            "inference_ms_per_sample": 0.2102,
+            "parameter_count": 258000,
+            "per_class_metrics": {
+                "Alfalfa": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Corn-notill": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Corn-mintill": {
+                    "precision": 0.5069,
+                    "recall": 0.7011,
+                    "f1_score": 0.5884
+                },
+                "Corn": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-pasture": {
+                    "precision": 0.5933,
+                    "recall": 0.5741,
+                    "f1_score": 0.5835
+                },
+                "Grass-trees": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-pasture-mowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Hay-windrowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Oats": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-notill": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-mintill": {
+                    "precision": 0.8911,
+                    "recall": 0.9677,
+                    "f1_score": 0.9278
+                },
+                "Soybean-clean": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Wheat": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Woods": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Buildings-Grass-Trees-Drives": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Stone-Steel-Towers": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                }
+            }
+        },
+        "Spatial-Spectral 3D-CNN": {
+            "model_name": "Spatial-Spectral 3D-CNN",
+            "regime": "parcel",
+            "overall_accuracy_oa": 0.3175,
+            "average_accuracy_aa": 0.2229,
+            "cohens_kappa": 0.2171,
+            "macro_f1": 0.1724,
+            "weighted_f1": 0.2596,
+            "fit_time_seconds": 76.39,
+            "inference_ms_per_sample": 0.1067,
+            "parameter_count": 35616,
+            "per_class_metrics": {
+                "Alfalfa": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Corn-notill": {
+                    "precision": 0.5086,
+                    "recall": 0.7027,
+                    "f1_score": 0.5901
+                },
+                "Corn-mintill": {
+                    "precision": 0.2632,
+                    "recall": 0.5093,
+                    "f1_score": 0.347
+                },
+                "Corn": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-pasture": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-trees": {
+                    "precision": 0.0265,
+                    "recall": 0.0678,
+                    "f1_score": 0.0381
+                },
+                "Grass-pasture-mowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Hay-windrowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Oats": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-notill": {
+                    "precision": 0.5153,
+                    "recall": 0.9032,
+                    "f1_score": 0.6562
+                },
+                "Soybean-mintill": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-clean": {
+                    "precision": 0.0325,
+                    "recall": 0.0667,
+                    "f1_score": 0.0437
+                },
+                "Wheat": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Woods": {
+                    "precision": 0.0213,
+                    "recall": 0.0049,
+                    "f1_score": 0.008
+                },
+                "Buildings-Grass-Trees-Drives": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Stone-Steel-Towers": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                }
+            }
+        },
+        "HybridSN (3D-2D CNN)": {
+            "model_name": "HybridSN (3D-2D CNN)",
+            "regime": "parcel",
+            "overall_accuracy_oa": 0.3655,
+            "average_accuracy_aa": 0.2433,
+            "cohens_kappa": 0.2516,
+            "macro_f1": 0.2007,
+            "weighted_f1": 0.3052,
+            "fit_time_seconds": 25.37,
+            "inference_ms_per_sample": 0.0952,
+            "parameter_count": 362608,
+            "per_class_metrics": {
+                "Alfalfa": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Corn-notill": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Corn-mintill": {
+                    "precision": 0.3872,
+                    "recall": 0.6248,
+                    "f1_score": 0.4781
+                },
+                "Corn": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-pasture": {
+                    "precision": 0.498,
+                    "recall": 0.5694,
+                    "f1_score": 0.5313
+                },
+                "Grass-trees": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Grass-pasture-mowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Hay-windrowed": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Oats": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Soybean-notill": {
+                    "precision": 0.5556,
+                    "recall": 0.0847,
+                    "f1_score": 0.1471
+                },
+                "Soybean-mintill": {
+                    "precision": 0.5569,
+                    "recall": 1.0,
+                    "f1_score": 0.7154
+                },
+                "Soybean-clean": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Wheat": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Woods": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1_score": 0.0
+                },
+                "Buildings-Grass-Trees-Drives": {
+                    "precision": 0.0529,
+                    "recall": 0.1833,
+                    "f1_score": 0.0821
+                },
+                "Stone-Steel-Towers": {
+                    "precision": 0.053,
+                    "recall": 0.0392,
+                    "f1_score": 0.0451
+                }
+            }
+        }
+    },
+    "generalization_cliff": {
+        "Spectral 1D-CNN": {
+            "random_split_oa": 0.58,
+            "parcel_split_oa": 0.3025,
+            "absolute_accuracy_drop": 0.2775,
+            "relative_accuracy_drop_pct": 47.84,
+            "random_split_kappa": 0.4955,
+            "parcel_split_kappa": 0.1969,
+            "absolute_kappa_drop": 0.2986,
+            "random_split_aa": 0.4074,
+            "parcel_split_aa": 0.2809,
+            "parameter_count": 54288
+        },
+        "Spatial 2D-CNN": {
+            "random_split_oa": 0.9961,
+            "parcel_split_oa": 0.3659,
+            "absolute_accuracy_drop": 0.6302,
+            "relative_accuracy_drop_pct": 63.27,
+            "random_split_kappa": 0.9955,
+            "parcel_split_kappa": 0.2607,
+            "absolute_kappa_drop": 0.7348,
+            "random_split_aa": 0.9514,
+            "parcel_split_aa": 0.209,
+            "parameter_count": 258000
+        },
+        "Spatial-Spectral 3D-CNN": {
+            "random_split_oa": 0.8693,
+            "parcel_split_oa": 0.3175,
+            "absolute_accuracy_drop": 0.5518,
+            "relative_accuracy_drop_pct": 63.48,
+            "random_split_kappa": 0.8494,
+            "parcel_split_kappa": 0.2171,
+            "absolute_kappa_drop": 0.6323,
+            "random_split_aa": 0.6915,
+            "parcel_split_aa": 0.2229,
+            "parameter_count": 35616
+        },
+        "HybridSN (3D-2D CNN)": {
+            "random_split_oa": 1.0,
+            "parcel_split_oa": 0.3655,
+            "absolute_accuracy_drop": 0.6345,
+            "relative_accuracy_drop_pct": 63.45,
+            "random_split_kappa": 1.0,
+            "parcel_split_kappa": 0.2516,
+            "absolute_kappa_drop": 0.7484,
+            "random_split_aa": 1.0,
+            "parcel_split_aa": 0.2433,
+            "parameter_count": 362608
+        }
+    }
+}

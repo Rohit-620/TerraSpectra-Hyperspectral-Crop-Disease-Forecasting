@@ -1,0 +1,4 @@
+patch_window,spatial_k,receptive_field_pixels,overall_accuracy_oa,cohens_kappa,average_accuracy_aa,macro_f1,fit_time_seconds
+5x5,5,25,0.3977,0.2894,0.2415,0.2056,6.53
+9x9,9,81,0.3714,0.2643,0.2273,0.1937,15.79
+13x13,13,169,0.2738,0.1566,0.1542,0.1246,76.03

@@ -1,0 +1,17 @@
+class_id,class_name,Spectral 1D-CNN_recall,Spectral 1D-CNN_f1,Spatial 2D-CNN_recall,Spatial 2D-CNN_f1,Spatial-Spectral 3D-CNN_recall,Spatial-Spectral 3D-CNN_f1,HybridSN (3D-2D CNN)_recall,HybridSN (3D-2D CNN)_f1
+1,Alfalfa,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2,Corn-notill,0.442,0.4162,0.0,0.0,0.7027,0.5901,0.0,0.0
+3,Corn-mintill,0.0046,0.0077,0.7011,0.5884,0.5093,0.347,0.6248,0.4781
+4,Corn,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5,Grass-pasture,0.0,0.0,0.5741,0.5835,0.0,0.0,0.5694,0.5313
+6,Grass-trees,0.4068,0.3636,0.0,0.0,0.0678,0.0381,0.0,0.0
+7,Grass-pasture-mowed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+8,Hay-windrowed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+9,Oats,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+10,Soybean-notill,0.9677,0.6143,0.0,0.0,0.9032,0.6562,0.0847,0.1471
+11,Soybean-mintill,0.0,0.0,0.9677,0.9278,0.0,0.0,1.0,0.7154
+12,Soybean-clean,0.6333,0.1496,0.0,0.0,0.0667,0.0437,0.0,0.0
+13,Wheat,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+14,Woods,0.2966,0.232,0.0,0.0,0.0049,0.008,0.0,0.0
+15,Buildings-Grass-Trees-Drives,0.0,0.0,0.0,0.0,0.0,0.0,0.1833,0.0821
+16,Stone-Steel-Towers,0.0,0.0,0.0,0.0,0.0,0.0,0.0392,0.0451
