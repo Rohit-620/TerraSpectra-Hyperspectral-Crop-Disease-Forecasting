@@ -1,0 +1,97 @@
+regime,model,class_name,precision,recall,f1_score
+random_split,HybridSN,Alfalfa,1.0,1.0,1.0
+random_split,HybridSN,Corn-notill,0.9965,1.0,0.9983
+random_split,HybridSN,Corn-mintill,0.994,1.0,0.997
+random_split,HybridSN,Corn,1.0,1.0,1.0
+random_split,HybridSN,Grass-pasture,1.0,1.0,1.0
+random_split,HybridSN,Grass-trees,1.0,1.0,1.0
+random_split,HybridSN,Grass-pasture-mowed,1.0,1.0,1.0
+random_split,HybridSN,Hay-windrowed,1.0,1.0,1.0
+random_split,HybridSN,Oats,1.0,1.0,1.0
+random_split,HybridSN,Soybean-notill,0.9949,1.0,0.9974
+random_split,HybridSN,Soybean-mintill,1.0,0.9959,0.998
+random_split,HybridSN,Soybean-clean,1.0,0.9916,0.9958
+random_split,HybridSN,Wheat,1.0,1.0,1.0
+random_split,HybridSN,Woods,0.996,0.996,0.996
+random_split,HybridSN,Buildings-Grass-Trees-Drives,0.987,0.987,0.987
+random_split,HybridSN,Stone-Steel-Towers,1.0,1.0,1.0
+random_split,SpectralFormer,Alfalfa,1.0,0.5556,0.7143
+random_split,SpectralFormer,Corn-notill,0.9895,0.993,0.9913
+random_split,SpectralFormer,Corn-mintill,1.0,0.994,0.997
+random_split,SpectralFormer,Corn,1.0,0.9574,0.9783
+random_split,SpectralFormer,Grass-pasture,0.9796,0.9897,0.9846
+random_split,SpectralFormer,Grass-trees,1.0,0.9932,0.9966
+random_split,SpectralFormer,Grass-pasture-mowed,1.0,1.0,1.0
+random_split,SpectralFormer,Hay-windrowed,0.9796,1.0,0.9897
+random_split,SpectralFormer,Oats,1.0,1.0,1.0
+random_split,SpectralFormer,Soybean-notill,0.9741,0.9691,0.9716
+random_split,SpectralFormer,Soybean-mintill,0.9879,0.9939,0.9909
+random_split,SpectralFormer,Soybean-clean,0.9832,0.9832,0.9832
+random_split,SpectralFormer,Wheat,1.0,1.0,1.0
+random_split,SpectralFormer,Woods,0.9921,0.9921,0.9921
+random_split,SpectralFormer,Buildings-Grass-Trees-Drives,0.962,0.987,0.9744
+random_split,SpectralFormer,Stone-Steel-Towers,1.0,1.0,1.0
+random_split,HS-MAE (Fine-Tuned),Alfalfa,0.0,0.0,0.0
+random_split,HS-MAE (Fine-Tuned),Corn-notill,0.9786,0.9615,0.97
+random_split,HS-MAE (Fine-Tuned),Corn-mintill,0.988,0.994,0.991
+random_split,HS-MAE (Fine-Tuned),Corn,0.9787,0.9787,0.9787
+random_split,HS-MAE (Fine-Tuned),Grass-pasture,0.9596,0.9794,0.9694
+random_split,HS-MAE (Fine-Tuned),Grass-trees,1.0,0.9863,0.9931
+random_split,HS-MAE (Fine-Tuned),Grass-pasture-mowed,1.0,0.4,0.5714
+random_split,HS-MAE (Fine-Tuned),Hay-windrowed,0.9231,1.0,0.96
+random_split,HS-MAE (Fine-Tuned),Oats,0.0,0.0,0.0
+random_split,HS-MAE (Fine-Tuned),Soybean-notill,0.936,0.9794,0.9572
+random_split,HS-MAE (Fine-Tuned),Soybean-mintill,0.9877,0.9817,0.9847
+random_split,HS-MAE (Fine-Tuned),Soybean-clean,0.9576,0.9496,0.9536
+random_split,HS-MAE (Fine-Tuned),Wheat,0.9762,1.0,0.988
+random_split,HS-MAE (Fine-Tuned),Woods,0.9725,0.9802,0.9764
+random_split,HS-MAE (Fine-Tuned),Buildings-Grass-Trees-Drives,0.9,0.9351,0.9172
+random_split,HS-MAE (Fine-Tuned),Stone-Steel-Towers,0.95,1.0,0.9744
+parcel_split,HybridSN,Alfalfa,0.0,0.0,0.0
+parcel_split,HybridSN,Corn-notill,0.4253,0.6693,0.5201
+parcel_split,HybridSN,Corn-mintill,0.4266,0.5648,0.4861
+parcel_split,HybridSN,Corn,0.0,0.0,0.0
+parcel_split,HybridSN,Grass-pasture,0.25,0.2203,0.2342
+parcel_split,HybridSN,Grass-trees,0.6571,0.9892,0.7897
+parcel_split,HybridSN,Grass-pasture-mowed,0.0,0.0,0.0
+parcel_split,HybridSN,Hay-windrowed,0.0,0.0,0.0
+parcel_split,HybridSN,Oats,0.0,0.0,0.0
+parcel_split,HybridSN,Soybean-notill,0.0259,0.0833,0.0395
+parcel_split,HybridSN,Soybean-mintill,0.0198,0.0123,0.0151
+parcel_split,HybridSN,Soybean-clean,0.2029,0.0314,0.0544
+parcel_split,HybridSN,Wheat,0.0,0.0,0.0
+parcel_split,HybridSN,Woods,0.5782,0.9668,0.7236
+parcel_split,HybridSN,Buildings-Grass-Trees-Drives,0.5116,0.1481,0.2298
+parcel_split,HybridSN,Stone-Steel-Towers,0.0,0.0,0.0
+parcel_split,SpectralFormer,Alfalfa,0.0,0.0,0.0
+parcel_split,SpectralFormer,Corn-notill,0.4019,0.8919,0.5541
+parcel_split,SpectralFormer,Corn-mintill,0.6919,0.5926,0.6384
+parcel_split,SpectralFormer,Corn,0.0,0.0,0.0
+parcel_split,SpectralFormer,Grass-pasture,0.5769,0.7627,0.6569
+parcel_split,SpectralFormer,Grass-trees,0.7132,0.9892,0.8288
+parcel_split,SpectralFormer,Grass-pasture-mowed,0.0,0.0,0.0
+parcel_split,SpectralFormer,Hay-windrowed,0.0,0.0,0.0
+parcel_split,SpectralFormer,Oats,0.0,0.0,0.0
+parcel_split,SpectralFormer,Soybean-notill,0.0,0.0,0.0
+parcel_split,SpectralFormer,Soybean-mintill,0.0,0.0,0.0
+parcel_split,SpectralFormer,Soybean-clean,0.0943,0.0112,0.02
+parcel_split,SpectralFormer,Wheat,0.0,0.0,0.0
+parcel_split,SpectralFormer,Woods,0.5355,0.8755,0.6646
+parcel_split,SpectralFormer,Buildings-Grass-Trees-Drives,0.8372,0.2424,0.376
+parcel_split,SpectralFormer,Stone-Steel-Towers,0.0,0.0,0.0
+parcel_split,HS-MAE (Fine-Tuned),Alfalfa,0.0,0.0,0.0
+parcel_split,HS-MAE (Fine-Tuned),Corn-notill,0.5861,0.9952,0.7378
+parcel_split,HS-MAE (Fine-Tuned),Corn-mintill,0.9068,0.9907,0.9469
+parcel_split,HS-MAE (Fine-Tuned),Corn,0.0,0.0,0.0
+parcel_split,HS-MAE (Fine-Tuned),Grass-pasture,0.5455,0.1017,0.1714
+parcel_split,HS-MAE (Fine-Tuned),Grass-trees,0.8857,1.0,0.9394
+parcel_split,HS-MAE (Fine-Tuned),Grass-pasture-mowed,0.0,0.0,0.0
+parcel_split,HS-MAE (Fine-Tuned),Hay-windrowed,0.0,0.0,0.0
+parcel_split,HS-MAE (Fine-Tuned),Oats,0.0,0.0,0.0
+parcel_split,HS-MAE (Fine-Tuned),Soybean-notill,0.0377,0.0333,0.0354
+parcel_split,HS-MAE (Fine-Tuned),Soybean-mintill,0.8892,0.7279,0.8005
+parcel_split,HS-MAE (Fine-Tuned),Soybean-clean,0.7333,0.0493,0.0924
+parcel_split,HS-MAE (Fine-Tuned),Wheat,0.0,0.0,0.0
+parcel_split,HS-MAE (Fine-Tuned),Woods,0.5096,0.9917,0.6732
+parcel_split,HS-MAE (Fine-Tuned),Buildings-Grass-Trees-Drives,0.8681,0.4209,0.5669
+parcel_split,HS-MAE (Fine-Tuned),Stone-Steel-Towers,0.0,0.0,0.0
