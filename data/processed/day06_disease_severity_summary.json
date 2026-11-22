@@ -1,0 +1,20 @@
+{
+    "milestone": "Day 6 - Disease Detection & Forecasting",
+    "scene": "AVIRIS Indian Pines",
+    "total_canopy_pixels": 9770,
+    "mean_dsi": 0.6540912389755249,
+    "std_dsi": 0.26663273572921753,
+    "stage_distribution": {
+        "Stage 0: Healthy / Asymptomatic": 2443,
+        "Stage 1: Pre-Visual Latent Stress": 2442,
+        "Stage 2: Moderate Chlorotic Infection": 2442,
+        "Stage 3: Severe Necrotic Blight": 2443
+    },
+    "early_detection_auc": {
+        "RGB Index (GLI)": 0.45320020463286936,
+        "Broadband NDVI": 0.912638795160285,
+        "Narrowband NDRE": 0.9750419306293231,
+        "REIP Blue Shift": 0.7994550945840345,
+        "Hyperspectral Composite (REIP+RX)": 0.7666204700588655
+    }
+}
