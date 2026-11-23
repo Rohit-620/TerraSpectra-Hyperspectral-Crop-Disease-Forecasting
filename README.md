@@ -45,6 +45,18 @@ The development process is organized into the following stages:
 
 *Technology selection may evolve throughout the research and implementation phases.*
 
+## 📅 7-Day Research & Engineering Milestones
+
+| Day | Milestone | Key Deliverables & Research Scope | Branch / Artifacts |
+|:---:|:---|:---|:---|
+| **Day 1** | **Dataset Pipeline & Sensor Benchmark** | Spaceborne vs. airborne trade-offs, AVIRIS Indian Pines & Salinas validation, band metadata cataloging. | [docs/dataset_documentation.md](file:///d:/TerraSpectra2026/docs/dataset_documentation.md)<br>[notebooks/01_dataset_exploration.ipynb](file:///d:/TerraSpectra2026/notebooks/01_dataset_exploration.ipynb) |
+| **Day 2** | **Radiometric Calibration & Spatial Leakage** | Float scaling ($\rho \in [0, 1]$), water absorption excision, 3D patch extraction, empirical proof of Tobler's spatial leakage ($>88\%$), 39-parcel disjoint splitting. | [docs/day02_structural_inspection_and_patching.md](file:///d:/TerraSpectra2026/docs/day02_structural_inspection_and_patching.md)<br>[notebooks/02_structural_inspection_and_patching.ipynb](file:///d:/TerraSpectra2026/notebooks/02_structural_inspection_and_patching.ipynb) |
+| **Day 3** | **Biophysical Indices & Classical Generalization Cliff** | 8 narrowband indices ($\text{NDVI}, \text{NDRE}, \text{PRI}, \text{PSRI}, \text{NDWI}$), SAM angular geometry, discovery of classical Generalization Cliff ($-48.7\%$ OA drop). | [docs/day03_spectral_indices_and_classical_baselines.md](file:///d:/TerraSpectra2026/docs/day03_spectral_indices_and_classical_baselines.md)<br>[reports/week01_writeup.md](file:///d:/TerraSpectra2026/reports/week01_writeup.md) |
+| **Day 4** | **Spatial-Spectral Deep Learning Suite** | 1D-CNN, 2D-CNN, 3D-CNN, and HybridSN (3D-2D CNN) on PCA-30 ($99.25\%$ variance), proof of deep boundary overfitting ($-63.45\%$ collapse), full-scene inference. | [docs/day04_spatial_spectral_deep_learning.md](file:///d:/TerraSpectra2026/docs/day04_spatial_spectral_deep_learning.md)<br>[notebooks/04_deep_learning_spatial_spectral.ipynb](file:///d:/TerraSpectra2026/notebooks/04_deep_learning_spatial_spectral.ipynb) |
+| **Day 5** | **Transformers & Foundation Self-Supervision** | Hyperspectral Masked Autoencoders (HS-MAE, $70\%$ masking), SpectralFormer ViT, overcoming the cliff ($63.89\%$ parcel OA), Salinas $\to$ Indian Pines CORAL domain transfer. | [docs/day05_transformers_and_self_supervised_learning.md](file:///d:/TerraSpectra2026/docs/day05_transformers_and_self_supervised_learning.md)<br>[notebooks/05_transformers_and_self_supervised_learning.ipynb](file:///d:/TerraSpectra2026/notebooks/05_transformers_and_self_supervised_learning.ipynb) |
+| **Day 6** | **Pathology Staging & Epidemiological PDE** | Biophysical Composite Disease Severity Index (DSI), pre-visual warning ($\text{ROC-AUC} = 0.9750$), 2D Reaction-Diffusion PDE microclimate risk forecasting ($t = 0, 3, 7, 14\text{ days}$). | [docs/day06_crop_disease_detection_and_forecasting.md](file:///d:/TerraSpectra2026/docs/day06_crop_disease_detection_and_forecasting.md)<br>[reports/week02_writeup.md](file:///d:/TerraSpectra2026/reports/week02_writeup.md) |
+| **Day 7** | **Explainable AI, Precision DSS & Production Deployment** | Integrated Gradients spectral attribution, TreeSHAP biophysical importance, Economic Injury Level ($EIL$), Variable-Rate Application (VRA) achieving **$62.4\%$ chemical reduction**, grand 7-day benchmark synthesis. | [docs/day07_decision_support_xai_and_deployment.md](file:///d:/TerraSpectra2026/docs/day07_decision_support_xai_and_deployment.md)<br>[reports/capstone_research_writeup.md](file:///d:/TerraSpectra2026/reports/capstone_research_writeup.md) |
+
 ## 📈 Research Deliverables
 
 The project aims to develop:

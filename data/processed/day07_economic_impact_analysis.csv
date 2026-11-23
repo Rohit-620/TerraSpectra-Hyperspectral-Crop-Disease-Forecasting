@@ -1,0 +1,12 @@
+Metric,Value
+total_canopy_acreage_ha,390.8
+uniform_spraying_total_liters,781.6
+precision_vra_total_liters,634.68
+chemical_reduction_liters,146.92
+chemical_reduction_percent,18.8
+uniform_spraying_cost_usd,17586.0
+precision_vra_cost_usd,14280.3
+financial_savings_usd,3305.7
+financial_savings_per_ha_usd,8.46
+economic_injury_level_eil,0.563
+action_threshold_at,0.394

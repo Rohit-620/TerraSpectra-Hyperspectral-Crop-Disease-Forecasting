@@ -1,0 +1,40 @@
+parcel_id,crop_type,area_ha,pixel_count,mean_dsi,max_dsi,critical_pct,warning_pct,infected_pct,priority_score,status,recommended_action,urgency_rank
+30,Soybean-mintill,43.28,1082,0.868,1.0,98.0,2.0,100.0,0.9334,RED,CRITICAL: Immediate Barrier & Curative Spray,1
+32,Soybean-mintill,32.36,809,0.885,0.998,94.8,3.3,98.1,0.93,RED,CRITICAL: Immediate Barrier & Curative Spray,2
+25,Soybean-notill,29.64,741,0.864,0.994,94.1,5.4,99.5,0.918,RED,CRITICAL: Immediate Barrier & Curative Spray,3
+12,Corn-mintill,10.8,270,0.845,0.969,98.9,1.1,100.0,0.8128,RED,CRITICAL: Immediate Barrier & Curative Spray,4
+3,Corn-notill,25.16,629,0.772,0.988,72.8,22.4,95.2,0.8025,RED,CRITICAL: Immediate Barrier & Curative Spray,5
+35,Soybean-clean,5.88,147,0.89,0.983,99.3,0.7,100.0,0.795,RED,CRITICAL: Immediate Barrier & Curative Spray,6
+11,Corn-mintill,8.64,216,0.834,0.956,93.5,6.5,100.0,0.7719,RED,CRITICAL: Immediate Barrier & Curative Spray,7
+31,Soybean-mintill,1.32,33,0.909,0.999,100.0,0.0,100.0,0.7698,RED,CRITICAL: Immediate Barrier & Curative Spray,8
+6,Corn-notill,3.2,80,0.868,0.996,100.0,0.0,100.0,0.766,RED,CRITICAL: Immediate Barrier & Curative Spray,9
+7,Corn-notill,11.84,296,0.822,0.977,78.4,21.6,100.0,0.739,RED,CRITICAL: Immediate Barrier & Curative Spray,10
+2,Corn-notill,6.88,172,0.836,0.973,82.0,15.1,97.1,0.7182,RED,CRITICAL: Immediate Barrier & Curative Spray,11
+27,Soybean-notill,4.2,105,0.806,0.911,90.5,8.6,99.0,0.713,RED,CRITICAL: Immediate Barrier & Curative Spray,12
+28,Soybean-mintill,16.32,408,0.746,0.981,63.0,26.5,89.5,0.6866,RED,CRITICAL: Immediate Barrier & Curative Spray,13
+4,Corn-notill,6.04,151,0.778,0.881,75.5,23.8,99.3,0.6627,RED,CRITICAL: Immediate Barrier & Curative Spray,14
+5,Corn-notill,4.0,100,0.769,0.872,75.0,20.0,95.0,0.6403,RED,CRITICAL: Immediate Barrier & Curative Spray,15
+34,Soybean-clean,10.24,256,0.733,0.968,57.0,35.5,92.6,0.6114,RED,CRITICAL: Immediate Barrier & Curative Spray,16
+8,Corn-mintill,5.56,139,0.743,0.886,59.0,36.7,95.7,0.5852,RED,CRITICAL: Immediate Barrier & Curative Spray,17
+26,Soybean-notill,2.64,66,0.753,0.904,60.6,36.4,97.0,0.5721,RED,CRITICAL: Immediate Barrier & Curative Spray,18
+9,Corn-mintill,5.04,126,0.72,0.872,52.4,38.1,90.5,0.5478,RED,CRITICAL: Immediate Barrier & Curative Spray,19
+10,Corn-mintill,3.16,79,0.746,0.934,51.9,43.0,94.9,0.5427,RED,CRITICAL: Immediate Barrier & Curative Spray,20
+33,Soybean-clean,7.6,190,0.674,0.903,44.2,37.4,81.6,0.519,RED,CRITICAL: Immediate Barrier & Curative Spray,21
+13,Corn,9.48,237,0.689,0.937,37.1,43.9,81.0,0.516,RED,CRITICAL: Immediate Barrier & Curative Spray,22
+22,Hay-windrowed,19.12,478,0.614,0.803,11.1,80.5,91.6,0.468,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),23
+29,Soybean-mintill,4.92,123,0.679,0.851,30.1,57.7,87.8,0.4501,RED,CRITICAL: Immediate Barrier & Curative Spray,24
+24,Soybean-notill,2.4,60,0.618,0.753,1.7,98.3,100.0,0.303,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),25
+39,Woods,36.16,904,0.219,0.49,0.0,0.0,0.0,0.2984,GREEN,NORMAL: Routine Field Monitoring,26
+21,Grass-pasture-mowed,1.12,28,0.643,0.746,0.0,96.4,96.4,0.2984,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),27
+18,Grass-trees,10.8,270,0.425,0.596,0.0,31.5,31.5,0.2777,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),28
+1,Alfalfa,1.84,46,0.568,0.739,0.0,84.8,84.8,0.2701,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),29
+19,Grass-trees,8.88,222,0.442,0.599,0.0,34.2,34.2,0.2698,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),30
+20,Grass-trees,9.52,238,0.376,0.58,0.0,10.5,10.5,0.2453,YELLOW,ADVISORY: Priority Field Scouting (Latent Foci),31
+14,Grass-pasture,0.72,18,0.521,0.719,0.0,44.4,44.4,0.2401,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),32
+17,Grass-pasture,3.52,88,0.462,0.703,0.0,20.5,20.5,0.236,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),33
+15,Grass-pasture,2.36,59,0.477,0.743,0.0,59.3,59.3,0.2335,ORANGE,WARNING: Precision Spot Spray (1.5 L/ha),34
+16,Grass-pasture,12.72,318,0.224,0.484,0.0,0.0,0.0,0.2025,GREEN,NORMAL: Routine Field Monitoring,35
+23,Oats,0.8,20,0.393,0.472,0.0,0.0,0.0,0.1835,YELLOW,ADVISORY: Priority Field Scouting (Latent Foci),36
+38,Woods,9.64,241,0.177,0.494,0.0,0.0,0.0,0.1568,GREEN,NORMAL: Routine Field Monitoring,37
+36,Wheat,8.2,205,0.197,0.67,0.0,2.0,2.0,0.1542,GREEN,NORMAL: Routine Field Monitoring,38
+37,Woods,4.8,120,0.171,0.413,0.0,0.0,0.0,0.1155,GREEN,NORMAL: Routine Field Monitoring,39

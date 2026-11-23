@@ -1,0 +1,9 @@
+feature,importance,mechanism
+PRI,0.23126831997154076,Photosystem II LUE
+PSRI,0.20235142317147511,Carotenoid/Senescence
+NDRE,0.173950124712889,Chlorophyll Red-Edge
+NDWI,0.13915188078725482,Water Content
+SAVI,0.1321664750342001,Soil/Canopy Biomass
+WBI,0.05656141395501532,Water Content
+MCARI,0.03322306657592445,Soil/Canopy Biomass
+REIP,0.03132729579170037,Chlorophyll Red-Edge

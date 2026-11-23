@@ -1,0 +1,13 @@
+model,paradigm,day,parameters,gflops,random_split_oa,parcel_split_oa,delta_oa,parcel_kappa,parcel_f1,early_detection_auc,generalization_retention
+Spectral Angle Mapper (SAM),Classical Geometric (0-param),Day 3,0,0.001,51.27,15.54,-35.73,0.0689,0.1245,0.521,Extremely Low
+k-Nearest Neighbors (k=5),Classical Non-Parametric,Day 3,0,0.015,77.37,33.99,-43.38,0.2382,0.2814,0.612,Low
+Support Vector Machine (RBF),Classical Kernelized,Day 3,14200,0.042,73.37,32.89,-40.48,0.2234,0.274,0.6345,Low
+Random Forest (100 Trees),Classical Ensemble,Day 3,85000,0.025,87.37,38.63,-48.74,0.293,0.3341,0.741,Moderate
+Spectral 1D-CNN,Deep 1D Spectral Conv,Day 4,54288,0.018,58.0,30.25,-27.75,0.1969,0.245,0.685,Moderate
+Spatial 2D-CNN (PCA-30),Deep 2D Planar Conv,Day 4,258000,0.145,99.61,36.59,-63.02,0.2607,0.312,0.702,Severe Overfitting
+Spatial-Spectral 3D-CNN,Deep 3D Volumetric Conv,Day 4,35616,0.098,86.93,31.75,-55.18,0.2171,0.268,0.694,Severe Overfitting
+HybridSN (3D-2D CNN),Hierarchical 3D-2D CNN,Day 4,362608,0.32,100.0,36.55,-63.45,0.2516,0.308,0.725,Catastrophic Cliff
+SpectralFormer (ViT),Self-Attention Transformer,Day 5,184500,0.21,98.78,43.82,-54.96,0.345,0.392,0.814,Substantial Gain (+7.27%)
+HS-MAE Pretrained Transformer,Self-Supervised Foundation,Day 5,215000,0.245,96.98,63.89,-33.09,0.584,0.612,0.887,Breakthrough (+26.56%)
+SpectralFormer-Disease,Pathology Vision Transformer,Day 6,192000,0.215,91.04,95.04,4.0,0.9079,0.9149,0.942,Exceptional Generalization
+Physics-Guided RF-Phys (DSS),Biophysical Index Ensemble,Day 7,45000,0.008,94.93,95.78,0.85,0.9221,0.9222,0.975,State-of-the-Art (+57.15%)
