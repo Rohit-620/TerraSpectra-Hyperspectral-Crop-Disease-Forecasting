@@ -1,0 +1,29 @@
+[
+    {
+        "model": "1D-CNN (FP32 Full Precision)",
+        "size_kb": 109.8,
+        "size_reduction_pct": 0.0,
+        "latency_per_px_us": 20.29,
+        "throughput_px_per_sec": 49283.9,
+        "parcel_oa_pct": 73.22,
+        "cohen_kappa": 0.6365
+    },
+    {
+        "model": "1D-CNN (Dynamic INT8 Quantized)",
+        "size_kb": 62.5,
+        "size_reduction_pct": 43.1,
+        "latency_per_px_us": 19.8,
+        "throughput_px_per_sec": 50512.8,
+        "parcel_oa_pct": 73.14,
+        "cohen_kappa": 0.6355
+    },
+    {
+        "model": "RF-Phys (Biophysical Invariant)",
+        "size_kb": 850.0,
+        "size_reduction_pct": -570.0,
+        "latency_per_px_us": 11.32,
+        "throughput_px_per_sec": 88342.7,
+        "parcel_oa_pct": 97.03,
+        "cohen_kappa": 0.9588
+    }
+]

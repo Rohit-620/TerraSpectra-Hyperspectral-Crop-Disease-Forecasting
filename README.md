@@ -45,7 +45,7 @@ The development process is organized into the following stages:
 
 *Technology selection may evolve throughout the research and implementation phases.*
 
-## 📅 7-Day Research & Engineering Milestones
+## 📅 8-Day Research & Engineering Milestones
 
 | Day | Milestone | Key Deliverables & Research Scope | Branch / Artifacts |
 |:---:|:---|:---|:---|
@@ -56,6 +56,7 @@ The development process is organized into the following stages:
 | **Day 5** | **Transformers & Foundation Self-Supervision** | Hyperspectral Masked Autoencoders (HS-MAE, $70\%$ masking), SpectralFormer ViT, overcoming the cliff ($63.89\%$ parcel OA), Salinas $\to$ Indian Pines CORAL domain transfer. | [docs/day05_transformers_and_self_supervised_learning.md](file:///d:/TerraSpectra2026/docs/day05_transformers_and_self_supervised_learning.md)<br>[notebooks/05_transformers_and_self_supervised_learning.ipynb](file:///d:/TerraSpectra2026/notebooks/05_transformers_and_self_supervised_learning.ipynb) |
 | **Day 6** | **Pathology Staging & Epidemiological PDE** | Biophysical Composite Disease Severity Index (DSI), pre-visual warning ($\text{ROC-AUC} = 0.9750$), 2D Reaction-Diffusion PDE microclimate risk forecasting ($t = 0, 3, 7, 14\text{ days}$). | [docs/day06_crop_disease_detection_and_forecasting.md](file:///d:/TerraSpectra2026/docs/day06_crop_disease_detection_and_forecasting.md)<br>[reports/week02_writeup.md](file:///d:/TerraSpectra2026/reports/week02_writeup.md) |
 | **Day 7** | **Explainable AI, Precision DSS & Production Deployment** | Integrated Gradients spectral attribution, TreeSHAP biophysical importance, Economic Injury Level ($EIL$), Variable-Rate Application (VRA) achieving **$62.4\%$ chemical reduction**, grand 7-day benchmark synthesis. | [docs/day07_decision_support_xai_and_deployment.md](file:///d:/TerraSpectra2026/docs/day07_decision_support_xai_and_deployment.md)<br>[reports/capstone_research_writeup.md](file:///d:/TerraSpectra2026/reports/capstone_research_writeup.md) |
+| **Day 8** | **Edge-AI Quantization, Sensor Robustness & Autonomous UAV Planning** | Dynamic INT8 Quantization ($43.1\%$ memory reduction, $<0.08\%$ accuracy drop), AWGN & atmospheric haze stress testing, proof of biophysical index ratio invariance, Boustrophedon UAV flight mission generator ($841\text{ ha}$, $70.8\text{ Wh}$), real-time edge microservice & GeoJSON prescription export. | [docs/day08_edge_optimization_and_mission_planning.md](file:///d:/TerraSpectra2026/docs/day08_edge_optimization_and_mission_planning.md)<br>[notebooks/08_edge_optimization_and_mission_planning.ipynb](file:///d:/TerraSpectra2026/notebooks/08_edge_optimization_and_mission_planning.ipynb) |
 
 ## 📈 Research Deliverables
 

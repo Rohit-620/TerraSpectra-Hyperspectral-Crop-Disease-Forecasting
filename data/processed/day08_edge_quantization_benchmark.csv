@@ -1,0 +1,4 @@
+model,size_kb,size_reduction_pct,latency_per_px_us,throughput_px_per_sec,parcel_oa_pct,cohen_kappa
+1D-CNN (FP32 Full Precision),109.8,0.0,20.29,49283.9,73.22,0.6365
+1D-CNN (Dynamic INT8 Quantized),62.5,43.1,19.8,50512.8,73.14,0.6355
+RF-Phys (Biophysical Invariant),850.0,-570.0,11.32,88342.7,97.03,0.9588

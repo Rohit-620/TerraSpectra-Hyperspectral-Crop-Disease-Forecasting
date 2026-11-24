@@ -1,0 +1,23 @@
+{
+    "mission_metrics": {
+        "total_waypoints": 644,
+        "total_flight_distance_km": 40.413,
+        "total_flight_time_minutes": 88.73,
+        "total_energy_consumed_wh": 468.57,
+        "battery_utilization_pct": 260.32,
+        "high_risk_waypoints": 268,
+        "area_covered_ha": 841.0,
+        "coverage_rate_ha_per_min": 9.48
+    },
+    "edge_server_health": {
+        "status": "HEALTHY",
+        "device": "cpu",
+        "quantization": "Dynamic INT8",
+        "model_architecture": "SpectralDisease1DCNN-INT8",
+        "in_memory_state": "READY",
+        "timestamp": 1795539626.0602584
+    },
+    "mean_streaming_tile_latency_ms": 17.34,
+    "total_tiles_processed": 25,
+    "geojson_features_count": 41
+}
