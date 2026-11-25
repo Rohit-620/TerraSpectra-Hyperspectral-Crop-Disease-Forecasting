@@ -1,0 +1,10 @@
+[
+  {
+    "modality":"Satellite2HyperNet (Sentinel-2 -> AVIRIS 200)",
+    "PSNR_dB":36.86,
+    "RMSE":0.0144,
+    "SAM_deg":2.1500000954,
+    "ERGAS":4.0199999809,
+    "test_pixels_evaluated":5012
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "milestone": "Day 9 - Agricultural Digital Twin, Multi-Scale Satellite-to-UAV Super-Resolution & Yield Impact Platform",
+  "timestamp": "2026-11-25 21:44:32",
+  "total_parcels": 41,
+  "total_acreage_ha": 409.24,
+  "super_resolution_psnr_db": 36.86,
+  "super_resolution_sam_deg": 2.15,
+  "unmanaged_yield_loss_pct": 47.02,
+  "vra_yield_loss_pct": 5.54,
+  "chemical_volume_reduction_pct": 31.28,
+  "net_gain_vra_vs_blanket_usd": 63070.73,
+  "top_priority_scout_parcel": 30,
+  "execution_time_seconds": 19.68
+}

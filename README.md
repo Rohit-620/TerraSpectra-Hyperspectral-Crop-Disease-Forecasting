@@ -37,15 +37,15 @@ The development process is organized into the following stages:
 | Programming | Python |
 | Data Analysis | NumPy, Pandas |
 | Machine Learning | Scikit-learn |
-| Deep Learning | TensorFlow / PyTorch |
-| Image Processing | OpenCV, Spectral Python |
-| Visualization | Matplotlib, Seaborn |
+| Deep Learning | PyTorch (1D/2D/3D CNNs, ViT, HS-MAE, ResNet) |
+| Image Processing | OpenCV, Spectral Python, SciPy NDImage |
+| Visualization & UI | Matplotlib, Seaborn, Streamlit Web Platform |
 | Experimentation | Jupyter Notebook, Google Colab |
 | Collaboration | Git, GitHub |
 
 *Technology selection may evolve throughout the research and implementation phases.*
 
-## 📅 8-Day Research & Engineering Milestones
+## 📅 9-Day Research & Engineering Milestones
 
 | Day | Milestone | Key Deliverables & Research Scope | Branch / Artifacts |
 |:---:|:---|:---|:---|
@@ -57,6 +57,7 @@ The development process is organized into the following stages:
 | **Day 6** | **Pathology Staging & Epidemiological PDE** | Biophysical Composite Disease Severity Index (DSI), pre-visual warning ($\text{ROC-AUC} = 0.9750$), 2D Reaction-Diffusion PDE microclimate risk forecasting ($t = 0, 3, 7, 14\text{ days}$). | [docs/day06_crop_disease_detection_and_forecasting.md](file:///d:/TerraSpectra2026/docs/day06_crop_disease_detection_and_forecasting.md)<br>[reports/week02_writeup.md](file:///d:/TerraSpectra2026/reports/week02_writeup.md) |
 | **Day 7** | **Explainable AI, Precision DSS & Production Deployment** | Integrated Gradients spectral attribution, TreeSHAP biophysical importance, Economic Injury Level ($EIL$), Variable-Rate Application (VRA) achieving **$62.4\%$ chemical reduction**, grand 7-day benchmark synthesis. | [docs/day07_decision_support_xai_and_deployment.md](file:///d:/TerraSpectra2026/docs/day07_decision_support_xai_and_deployment.md)<br>[reports/capstone_research_writeup.md](file:///d:/TerraSpectra2026/reports/capstone_research_writeup.md) |
 | **Day 8** | **Edge-AI Quantization, Sensor Robustness & Autonomous UAV Planning** | Dynamic INT8 Quantization ($43.1\%$ memory reduction, $<0.08\%$ accuracy drop), AWGN & atmospheric haze stress testing, proof of biophysical index ratio invariance, Boustrophedon UAV flight mission generator ($841\text{ ha}$, $70.8\text{ Wh}$), real-time edge microservice & GeoJSON prescription export. | [docs/day08_edge_optimization_and_mission_planning.md](file:///d:/TerraSpectra2026/docs/day08_edge_optimization_and_mission_planning.md)<br>[notebooks/08_edge_optimization_and_mission_planning.ipynb](file:///d:/TerraSpectra2026/notebooks/08_edge_optimization_and_mission_planning.ipynb) |
+| **Day 9** | **Agricultural Digital Twin & Multi-Scale Remote Sensing** | Satellite-to-UAV deep spectral super-resolution (`Satellite2HyperNet`, $\text{PSNR} = 36.86\text{ dB}$, $\text{SAM} = 2.15^\circ$), Radiation-Use Efficiency crop yield loss modeling, Monte Carlo uncertainty & $95\%$ conformal scouting, interactive full-stack Streamlit precision management web dashboard (`app/app.py`). | [docs/day09_digital_twin_and_multiscale_fusion.md](file:///d:/TerraSpectra2026/docs/day09_digital_twin_and_multiscale_fusion.md)<br>[notebooks/09_digital_twin_and_multiscale_fusion.ipynb](file:///d:/TerraSpectra2026/notebooks/09_digital_twin_and_multiscale_fusion.ipynb)<br>[reports/week03_writeup.md](file:///d:/TerraSpectra2026/reports/week03_writeup.md) |
 
 ## 📈 Research Deliverables
 

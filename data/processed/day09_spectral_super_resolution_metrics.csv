@@ -1,0 +1,2 @@
+modality,PSNR_dB,RMSE,SAM_deg,ERGAS,test_pixels_evaluated
+Satellite2HyperNet (Sentinel-2 -> AVIRIS 200),36.86,0.0144,2.15,4.02,5012
