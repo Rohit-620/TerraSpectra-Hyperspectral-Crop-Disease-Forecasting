@@ -1,0 +1,5 @@
+state,mean_psi,max_psi,wasserstein_dist,alert,action
+Baseline Calibrated (AVIRIS),0.0,0.0,0.0,STABLE,Nominal serving
+State 1: Optic Dust / Front Lens,1.4186,7.2733,0.0107,STABLE,Nominal serving
+State 2: Atmospheric Haze,0.8635,7.1297,0.0066,MODERATE,Dark-current recalibration
+State 3: Severe Spectrometer Shift,3.1825,8.2154,0.0552,CRITICAL,Model invalidation alert

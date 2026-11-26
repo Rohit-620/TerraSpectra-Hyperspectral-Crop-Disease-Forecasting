@@ -1,0 +1,8 @@
+endpoint,p50_ms,p95_ms,status
+GET /health,0.18,0.35,200 OK
+GET /model/metadata,0.22,0.4,200 OK
+POST /predict/pixel,8.6,12.12,200 OK
+POST /predict/batch-64,31.05,38.81,200 OK
+POST /forecast/trajectory,1.82,2.45,200 OK
+POST /scouting/optimize,3.1,4.2,200 OK
+POST /governance/drift-audit,3.42,4.8,200 OK

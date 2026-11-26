@@ -1,0 +1,34 @@
+[
+  {
+    "state":"Baseline Calibrated (AVIRIS)",
+    "mean_psi":0.0,
+    "max_psi":0.0,
+    "wasserstein_dist":0.0,
+    "alert":"STABLE",
+    "action":"Nominal serving"
+  },
+  {
+    "state":"State 1: Optic Dust \/ Front Lens",
+    "mean_psi":1.4186,
+    "max_psi":7.2733,
+    "wasserstein_dist":0.0107,
+    "alert":"STABLE",
+    "action":"Nominal serving"
+  },
+  {
+    "state":"State 2: Atmospheric Haze",
+    "mean_psi":0.8635,
+    "max_psi":7.1297,
+    "wasserstein_dist":0.0066,
+    "alert":"MODERATE",
+    "action":"Dark-current recalibration"
+  },
+  {
+    "state":"State 3: Severe Spectrometer Shift",
+    "mean_psi":3.1825,
+    "max_psi":8.2154,
+    "wasserstein_dist":0.0552,
+    "alert":"CRITICAL",
+    "action":"Model invalidation alert"
+  }
+]

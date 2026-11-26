@@ -1,0 +1,44 @@
+[
+  {
+    "endpoint":"GET \/health",
+    "p50_ms":0.18,
+    "p95_ms":0.35,
+    "status":"200 OK"
+  },
+  {
+    "endpoint":"GET \/model\/metadata",
+    "p50_ms":0.22,
+    "p95_ms":0.4,
+    "status":"200 OK"
+  },
+  {
+    "endpoint":"POST \/predict\/pixel",
+    "p50_ms":8.6,
+    "p95_ms":12.12,
+    "status":"200 OK"
+  },
+  {
+    "endpoint":"POST \/predict\/batch-64",
+    "p50_ms":31.05,
+    "p95_ms":38.81,
+    "status":"200 OK"
+  },
+  {
+    "endpoint":"POST \/forecast\/trajectory",
+    "p50_ms":1.82,
+    "p95_ms":2.45,
+    "status":"200 OK"
+  },
+  {
+    "endpoint":"POST \/scouting\/optimize",
+    "p50_ms":3.1,
+    "p95_ms":4.2,
+    "status":"200 OK"
+  },
+  {
+    "endpoint":"POST \/governance\/drift-audit",
+    "p50_ms":3.42,
+    "p95_ms":4.8,
+    "status":"200 OK"
+  }
+]

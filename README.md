@@ -45,7 +45,7 @@ The development process is organized into the following stages:
 
 *Technology selection may evolve throughout the research and implementation phases.*
 
-## 📅 9-Day Research & Engineering Milestones
+## 📅 10-Day Research & Engineering Milestones
 
 | Day | Milestone | Key Deliverables & Research Scope | Branch / Artifacts |
 |:---:|:---|:---|:---|
@@ -58,6 +58,7 @@ The development process is organized into the following stages:
 | **Day 7** | **Explainable AI, Precision DSS & Production Deployment** | Integrated Gradients spectral attribution, TreeSHAP biophysical importance, Economic Injury Level ($EIL$), Variable-Rate Application (VRA) achieving **$62.4\%$ chemical reduction**, grand 7-day benchmark synthesis. | [docs/day07_decision_support_xai_and_deployment.md](file:///d:/TerraSpectra2026/docs/day07_decision_support_xai_and_deployment.md)<br>[reports/capstone_research_writeup.md](file:///d:/TerraSpectra2026/reports/capstone_research_writeup.md) |
 | **Day 8** | **Edge-AI Quantization, Sensor Robustness & Autonomous UAV Planning** | Dynamic INT8 Quantization ($43.1\%$ memory reduction, $<0.08\%$ accuracy drop), AWGN & atmospheric haze stress testing, proof of biophysical index ratio invariance, Boustrophedon UAV flight mission generator ($841\text{ ha}$, $70.8\text{ Wh}$), real-time edge microservice & GeoJSON prescription export. | [docs/day08_edge_optimization_and_mission_planning.md](file:///d:/TerraSpectra2026/docs/day08_edge_optimization_and_mission_planning.md)<br>[notebooks/08_edge_optimization_and_mission_planning.ipynb](file:///d:/TerraSpectra2026/notebooks/08_edge_optimization_and_mission_planning.ipynb) |
 | **Day 9** | **Agricultural Digital Twin & Multi-Scale Remote Sensing** | Satellite-to-UAV deep spectral super-resolution (`Satellite2HyperNet`, $\text{PSNR} = 36.86\text{ dB}$, $\text{SAM} = 2.15^\circ$), Radiation-Use Efficiency crop yield loss modeling, Monte Carlo uncertainty & $95\%$ conformal scouting, interactive full-stack Streamlit precision management web dashboard (`app/app.py`). | [docs/day09_digital_twin_and_multiscale_fusion.md](file:///d:/TerraSpectra2026/docs/day09_digital_twin_and_multiscale_fusion.md)<br>[notebooks/09_digital_twin_and_multiscale_fusion.ipynb](file:///d:/TerraSpectra2026/notebooks/09_digital_twin_and_multiscale_fusion.ipynb)<br>[reports/week03_writeup.md](file:///d:/TerraSpectra2026/reports/week03_writeup.md) |
+| **Day 10** | **Multi-Temporal Phenology Forecasting, Real-Time FastAPI Microservice & MLOps Governance** | Spatiotemporal phenology-coupled disease progression modeling ($\text{V4} \to \text{R6}$), high-throughput asynchronous RESTful FastAPI microservice (`app/api.py`, median single-pixel latency $8.60\text{ ms}$, batch tile throughput $2,060\text{ px/s}$), MLOps Population Stability Index (PSI) & Wasserstein-1 sensor drift governance, and Grand Capstone Research Defense synthesis. | [docs/day10_multitemporal_forecasting_and_production_mlops.md](file:///d:/TerraSpectra2026/docs/day10_multitemporal_forecasting_and_production_mlops.md)<br>[notebooks/10_multitemporal_forecasting_and_production_mlops.ipynb](file:///d:/TerraSpectra2026/notebooks/10_multitemporal_forecasting_and_production_mlops.ipynb)<br>[reports/capstone_research_writeup.md](file:///d:/TerraSpectra2026/reports/capstone_research_writeup.md) |
 
 ## 📈 Research Deliverables
 

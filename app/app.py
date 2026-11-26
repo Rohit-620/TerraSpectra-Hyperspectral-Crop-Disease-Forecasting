@@ -152,6 +152,9 @@ def main():
             "🌾 Agronomic Yield Impact & VRA",
             "🚁 UAV Mission & Edge Telemetry",
             "🎯 Uncertainty & Field Scouting",
+            "📈 Multi-Temporal Phenology & Forecasting",
+            "⚡ Real-Time FastAPI Microservice Tester",
+            "🛡️ MLOps Sensor Drift & Model Governance",
             "📊 Executive System Overview"
         ]
     )
@@ -354,17 +357,122 @@ def main():
             )
 
     # =========================================================================
-    # MODULE 6: Executive System Overview
+    # MODULE 6: Multi-Temporal Phenology & Forecasting
+    # =========================================================================
+    elif menu == "📈 Multi-Temporal Phenology & Forecasting":
+        st.header("📈 Multi-Temporal Crop Phenology & Disease Progression Forecasting")
+        st.markdown(
+            "Coupling non-linear epidemic dynamics with cumulative Growing Degree Days (GDD), "
+            "atmospheric Vapor Pressure Deficit (VPD), and precision intervention timings."
+        )
+
+        st.image(os.path.join(FIG_DIR, "day10_multitemporal_phenology_and_disease_forecasting.png"), use_container_width=True)
+
+        st.subheader("🧪 Interactive Spatiotemporal Disease Progression Simulator")
+        c1, c2, c3 = st.columns(3)
+        with c1:
+            sim_init_dsi = st.slider("Initial DSI (t=0)", 0.05, 0.70, 0.25, step=0.05)
+        with c2:
+            sim_interv_day = st.selectbox("Intervention Timing", ["No Intervention (Unchecked)", "Day 7 (Early VRA)", "Day 14 (Delayed VRA)", "Day 21 (Late VRA)"])
+        with c3:
+            sim_vpd = st.slider("Mean VPD (kPa)", 0.8, 2.5, 1.5, step=0.1)
+
+        interv_map = {
+            "No Intervention (Unchecked)": None,
+            "Day 7 (Early VRA)": 7,
+            "Day 14 (Delayed VRA)": 14,
+            "Day 21 (Late VRA)": 21
+        }
+        interv_val = interv_map[sim_interv_day]
+        days_sim = [0, 7, 14, 21, 28, 35, 42]
+
+        from scripts.day10_multitemporal_forecasting_and_production_mlops import simulate_multitemporal_progression
+        sim_traj = simulate_multitemporal_progression(sim_init_dsi, np.array(days_sim), 12.8, sim_vpd, intervention_day=interv_val)
+
+        col_metric1, col_metric2, col_metric3 = st.columns(3)
+        final_dsi = float(sim_traj[-1])
+        yield_ret = float(np.clip(100.0 - 55.0 * (final_dsi ** 1.35), 45.0, 100.0))
+        net_ret = round(float(220.0 * 9.5 * (yield_ret / 100.0) - (45.0 if interv_val else 0.0)), 2)
+
+        col_metric1.metric("Final Projected DSI (t=42d)", f"{final_dsi:.3f}", "Terminal Severity")
+        col_metric2.metric("Harvested Yield Retention", f"{yield_ret:.1f}%", f"{-(100-yield_ret):.1f}% Loss")
+        col_metric3.metric("Projected Net Revenue", f"${net_ret:,.2f} /ha", "+$642 vs Unchecked" if interv_val == 7 else "Suboptimal")
+
+    # =========================================================================
+    # MODULE 7: Real-Time FastAPI Microservice Tester
+    # =========================================================================
+    elif menu == "⚡ Real-Time FastAPI Microservice Tester":
+        st.header("⚡ Real-Time High-Throughput FastAPI Inference Microservice")
+        st.markdown(
+            "Interact directly with the live REST API microservice (`app/api.py`) engineered for smart tractor booms, "
+            "UAV payload computers, and regional satellite pipelines."
+        )
+
+        st.image(os.path.join(FIG_DIR, "day10_fastapi_production_microservice_architecture.png"), use_container_width=True)
+
+        st.subheader("📡 Live Endpoint Query Sandbox")
+        from fastapi.testclient import TestClient
+        from app.api import app as fastapi_app
+        client = TestClient(fastapi_app)
+
+        test_col1, test_col2 = st.columns([1, 1])
+        with test_col1:
+            px = st.slider("Query Pixel Coordinate X", 0, 144, 72)
+            py = st.slider("Query Pixel Coordinate Y", 0, 144, 72)
+            crop_sel = st.selectbox("Crop Variety", ["Soybean-mintill", "Corn-mintill", "Wheat", "Hay-windrowed"])
+
+            if st.button("🚀 Send Real-Time Inference Request (/predict/pixel)"):
+                t0 = time.perf_counter()
+                spec_in = cube_refl[py, px, :].tolist()
+                response = client.post("/predict/pixel", json={"reflectance": spec_in, "crop_type": crop_sel})
+                lat_ms = (time.perf_counter() - t0) * 1000.0
+
+                if response.status_code == 200:
+                    res_json = response.json()
+                    st.success(f"Inference Completed in {lat_ms:.2f} ms (Server Reported: {res_json['inference_latency_ms']} ms)")
+                    with test_col2:
+                        st.subheader("📋 JSON Response Payload")
+                        st.json(res_json)
+                else:
+                    st.error(f"Inference Failed with HTTP {response.status_code}")
+
+        if os.path.exists(os.path.join(PROC_DATA_DIR, "day10_api_performance_benchmarks.csv")):
+            st.subheader("⚡ Microservice Latency & Throughput Benchmark")
+            df_api = pd.read_csv(os.path.join(PROC_DATA_DIR, "day10_api_performance_benchmarks.csv"))
+            st.dataframe(df_api, use_container_width=True)
+
+    # =========================================================================
+    # MODULE 8: MLOps Sensor Drift & Model Governance
+    # =========================================================================
+    elif menu == "🛡️ MLOps Sensor Drift & Model Governance":
+        st.header("🛡️ MLOps Spectral Sensor Drift & Population Stability Index (PSI)")
+        st.markdown(
+            "Continuous automated monitoring of optical attenuation, dust build-up, and atmospheric haze "
+            "to guarantee model invariant safety constraints."
+        )
+
+        st.image(os.path.join(FIG_DIR, "day10_mlops_sensor_drift_and_model_governance.png"), use_container_width=True)
+
+        if os.path.exists(os.path.join(PROC_DATA_DIR, "day10_sensor_drift_governance_metrics.csv")):
+            st.subheader("📊 Sensor Calibration Drift Audit Summary")
+            df_drift = pd.read_csv(os.path.join(PROC_DATA_DIR, "day10_sensor_drift_governance_metrics.csv"))
+            st.dataframe(df_drift, use_container_width=True)
+
+    # =========================================================================
+    # MODULE 9: Executive System Overview & Capstone Defense
     # =========================================================================
     elif menu == "📊 Executive System Overview":
-        st.header("📊 TerraSpectra Agricultural Digital Twin Architecture")
+        st.header("📊 TerraSpectra Agricultural Digital Twin Architecture & Grand Capstone")
         st.markdown("End-to-end cloud-edge system integration from spaceborne remote sensing to tractor sprayers.")
 
+        st.image(os.path.join(FIG_DIR, "day10_grand_10day_capstone_synthesis_and_roi.png"), use_container_width=True)
         st.image(os.path.join(FIG_DIR, "day09_digital_twin_dashboard_and_architecture.png"), use_container_width=True)
 
-        if data_loaded:
-            st.subheader("⚡ Live System Telemetry Stream")
-            st.json(telemetry)
+        if os.path.exists(os.path.join(PROC_DATA_DIR, "day10_capstone_grand_summary.json")):
+            with open(os.path.join(PROC_DATA_DIR, "day10_capstone_grand_summary.json"), "r") as f:
+                capstone_data = json.load(f)
+            st.subheader("🏆 Grand Capstone Research Synthesis & Core Metrics")
+            st.json(capstone_data)
 
 
 if __name__ == "__main__":
